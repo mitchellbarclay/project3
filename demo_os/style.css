@@ -141,6 +141,34 @@ button:focus {
 	background-position: center;
 }
 
+#safari{
+		background-image:url("img/safari.jpg");
+	background-repeat: none;
+	background-size: cover;
+	background-position: center;
+}
+
+#photos{
+	background-image:url("img/photos.jpg");
+	background-repeat: none;
+	background-size: cover;
+	background-position: center;
+
+}
+
+#maps{
+	background-image:url("img/maps.png");
+	background-repeat: none;
+	background-size: cover;
+	background-position: center;
+}
+
+#camera{
+	background-image:url("img/camera.png");
+	background-repeat: none;
+	background-size: cover;
+	background-position: center;
+}
 
 .app-row{
 	margin-top:50px;
