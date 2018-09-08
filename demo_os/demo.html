@@ -93,13 +93,29 @@
 
 				<div id="page-2">
 
-					<button type = "button" onclick="playgame()"> PLAY NOW </button>
+					<button type = "button" onclick="playgame(); playVideo()"> PLAY NOW </button>
+
 
 				</div>
 
-				    <div id = "ads">
-					<iframe id = "adv" width="800" height="580" src="https://www.youtube.com/embed/oemoqEuJdFE?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-				    </div>
+				<div id = "ads">
+
+					<div id="skip"> 
+						<p> Skip ad in <span id="time">59:00</span> minutes </p>
+					</div>
+
+					<div id="player"></div>
+				</div>
+
+
+				<div id="page-3">
+
+					<a class="twitter-timeline" data-theme="light" href="https://twitter.com/realDonaldTrump?ref_src=twsrc%5Etfw">Tweets by realDonaldTrump</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+				</div>
+
+
+
 
 
 
@@ -114,7 +130,7 @@
 					</div>
 
 					<div class = "app-25">
-						<button type="button"></button>
+						<button type="button" id="twitter" onclick="app3()"></button>
 					</div>
 
 					<div class = "app-25">
@@ -157,7 +173,7 @@
 				</div>
 
 				<div class = "home-button">
-					<button type="button" onclick="closeApp()"></button>
+					<button type="button" onclick="closeApp();stopVideo()"></button>
 				</div>
 
 			</div>

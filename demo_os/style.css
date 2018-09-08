@@ -132,7 +132,13 @@ button:focus {
 	background-repeat: none;
 	background-size: cover;
 	background-position: center;
+}
 
+#twitter{
+		background-image:url("img/twitter.png");
+	background-repeat: none;
+	background-size: cover;
+	background-position: center;
 }
 
 
@@ -294,8 +300,29 @@ button:focus {
 	height:0px;
 	overflow:hidden;
 	opacity:0;
-	text-align:center;
 }
+
+#player {
+pointer-events: none;
+position: absolute;
+}
+
+#skip{
+	padding-left:20px;
+}
+
+#page-3 {
+	margin-top:3px;
+	width:100%;
+	height:0px;
+	opacity:0;
+	background:#3B5998;
+	display:block;
+	position:absolute;
+	transition: opacity 1s;
+	overflow-y: scroll;
+}
+
 
 .home-button button {
 	width:25px;
