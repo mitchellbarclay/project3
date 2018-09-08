@@ -1,0 +1,319 @@
+nav{
+	width: 100%;
+	height: 42px;
+    background-color: rgba(25,25,25,0.9);
+	text-align: center;
+	position: fixed;
+	top: 0;
+	/*opacity: 0.8;*/
+	overflow: hidden;
+	padding-right:63px;
+}
+
+.nav-logo {
+	float: left;
+	width: 25px;
+	height: 25px;
+	margin-top: 8px;
+	margin-left:8px;
+	background-image: url(../img/logo.png);
+	background-repeat: none;
+	background-size: cover;
+	background-position: center;
+}
+
+nav a{
+	margin:0;
+	line-height: 42px;
+	font-size:15px;
+	margin-left: 2em;
+	margin-right: 2em;
+	text-decoration: none;
+	color:white;
+	text-align:center;
+	font-weight:lighter;
+
+}
+
+
+
+nav a:hover{
+	color:grey; 
+}
+
+
+
+nav .nav-logo:hover{
+	filter:brightness(50%)
+}
+
+body{
+	margin: 0px;
+	font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+
+}
+
+*{
+	box-sizing: border-box; 
+
+}
+
+section {
+	margin-top:100px;
+}
+
+
+.demo-container {
+width: 500px;
+height:650px;
+margin-left:auto;
+margin-right:auto;
+background-image: url("img/template.png");
+background-size:500px 650px;
+position:relative;
+
+}
+
+.demo {
+	width:450px;
+	height:650px;
+
+	margin-left:auto;
+	margin-right:auto;
+	padding-top:40px;
+	position:relative;
+}
+
+.app-row button {
+height:50px;
+width:50px;
+border-radius: 12px;
+border:none;
+box-shadow: 0px 3px black;
+}
+
+.app-row button:active {
+/*	border:groove grey;
+	border-width:1px;*/
+	filter:brightness(80%);
+    transition:filter 0.2;
+}
+
+.app-dock button:active {
+	filter:brightness(80%);
+    transition:filter 0.2;
+}
+
+.app-dock button {
+height:50px;
+width:50px;
+border-radius: 12px;
+border:none;
+box-shadow: 0px 3px black;
+}
+
+button:hover{
+	cursor:pointer;
+}
+
+button:focus {
+	outline:0;
+}
+
+#facebook{
+	background-image:url("img/facebook.png");
+	background-repeat: none;
+	background-size: cover;
+	background-position: center;
+}
+
+#game{
+	background-image:url("img/sword.png");
+	background-repeat: none;
+	background-size: cover;
+	background-position: center;
+
+}
+
+
+.app-row{
+	margin-top:50px;
+}
+
+.app-25 {
+	/*margin:30px;*/
+	width:25%;
+	display:inline;
+	margin-right:20px;
+	margin-left:35px;
+}
+
+.app-dock {
+	margin-top:302px;
+}
+
+
+#page-1 {
+	margin-top:3px;
+	width:100%;
+	height:0px;
+	opacity:0;
+	background:#3B5998;
+	display:block;
+	position:absolute;
+	transition: opacity 1s;
+	overflow-y: scroll;
+}
+
+.facebook{
+	padding-left:30px;
+	padding-right:30px;
+	text-align:justify;
+	padding-top:20px;
+}
+
+.terms button{
+	height:60px;
+	width:150px;
+	font-size:20px;
+	font-style:bold;
+	border-radius:10px;
+	background-color:lightgrey;
+	box-shadow:0px 3px;
+	border:none;
+}
+
+.terms button:active{
+	box-shadow:0px 0px;
+	transform: translateY(3px);
+}
+
+.button-wrapper{
+   margin-top:30px;
+   margin-left:80px;
+}
+
+.terms{
+	height:480px;
+	width:300;
+	margin-right:auto;
+	margin-left:auto;
+	margin-top:20px;
+	background:white;
+	border-radius:20px;
+	padding-top:25px;
+	box-shadow:0px 3px;
+	padding-left:35px;
+	padding-right:35px;
+	line-height:15px;
+}
+
+.terms-sub {
+	overflow-y: scroll;
+    margin-top:20px;
+	height:45%;
+	line-height:normal;
+	padding-right:35px;
+	border: 1px solid grey;
+	border-radius:15px 15px 0px 0px;
+
+
+}
+
+
+
+.terms h1{
+	font-size:40px;
+	text-align:center;
+	font-weight:lighter;
+}
+
+.terms h2{
+
+	font-size:15px;
+	font-weight:normal;
+}
+
+#condition-one{
+   font-size:30px;
+}
+#condition-two{
+   font-size:20px;
+}
+#condition-three{
+   font-size:15px;
+
+}
+#condition-four{
+   font-size:8px;
+}
+#condition-five{
+   font-size:3px;
+}
+
+
+#page-2 {
+	margin-top:3px;
+	width:100%;
+	height:0px;
+	background-image:url("img/swordhero.jpg");
+	background-repeat: none;
+	background-size: cover;
+	background-position: center;
+	display:block;
+	position:absolute;
+	opacity:0;
+	transition: opacity 1s;
+	overflow:hidden;
+}
+
+#page-2 button{
+    width:300px;
+    height:100px;
+    font-size:30px;
+    margin-left:75px;
+    margin-top:400px;
+    border:2px solid black;
+    border-radius:5px;
+    text-shadow:0px 3px #000000;
+    font-family:Impact, Charcoal, sans-serif;
+    color:white;
+    background-color:lightgrey;
+    box-shadow:0px 3px #000000;
+}
+
+#page-2 button:active{
+
+	transform:translateY(3px);
+	box-shadow:0px 0px;
+}
+
+#ads {
+	position:absolute;
+	width:100%;
+	height:0px;
+	overflow:hidden;
+	opacity:0;
+	text-align:center;
+}
+
+.home-button button {
+	width:25px;
+	height:25px;
+	margin-left:215px;
+	margin-top:20px;
+	display:inline-block;
+	border-radius:20px;
+	background-color:black;
+}
+
+.home-button button:active {
+
+	border:groove grey;
+	border-width:1px;
+
+	}
+
+
+
+
