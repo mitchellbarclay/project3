@@ -30,6 +30,7 @@ function app2() {
 
 function app3() {
     var x = document.getElementById("page-3");
+    var x2 = document.getElementById("twitter-timeline");
     if (x.style.height === "563px") {
         x.style.height = "0px";
     } else {
@@ -40,6 +41,13 @@ function app3() {
     } else {
         x.style.opacity = "1";
     }
+
+    if (x2.style.height === "563px") {
+        x2.style.height = "0px";
+    } else {
+        x2.style.height = "563px";
+    }
+
 }
 
 function playgame() {
