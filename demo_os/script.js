@@ -134,6 +134,23 @@ function playgame() {
 	}
 }
 
+function nikeWP() {
+    var x = document.getElementsByClassName('demo-container')[0];
+    x.style.backgroundImage = 'url("img/template2.png")';
+}
+
+function macsWP() {
+    var x = document.getElementsByClassName('demo-container')[0];
+    x.style.backgroundImage = 'url("img/template.png")';
+}
+
+function amazonWP() {
+    var x = document.getElementsByClassName('demo-container')[0];
+    x.style.backgroundImage = 'url("img/template3.png")';
+}
+
+
+
 
 
 

@@ -141,6 +141,13 @@ button:focus {
 	background-position: center;
 }
 
+#appstore{
+	background-image:url("img/appstore.jpg");
+	background-repeat: none;
+	background-size: cover;
+	background-position: center;
+}
+
 #safari{
 		background-image:url("img/safari.jpg");
 	background-repeat: none;
