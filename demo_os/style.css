@@ -177,6 +177,20 @@ button:focus {
 	background-position: center;
 }
 
+#message{
+	background-image:url("img/message.png");
+	background-repeat: none;
+	background-size: cover;
+	background-position: center;
+}
+
+#settings{
+	background-image:url("img/settings.png");
+	background-repeat: none;
+	background-size: cover;
+	background-position: center;
+}
+
 .app-row{
 	margin-top:50px;
 }
