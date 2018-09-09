@@ -47,7 +47,76 @@ function app3() {
     } else {
         x2.style.height = "563px";
     }
+}
 
+function app4() {
+    var x = document.getElementById("page-4");
+    var x2 = document.getElementById("top-bar");
+    var x3 = document.getElementById("bottom-bar");
+    if (x.style.height === "563px") {
+        x.style.height = "0px";
+    } else {
+        x.style.height = "563px";
+    }
+    if (x.style.opacity === "1") {
+        x.style.opacity = "0";
+    } else {
+        x.style.opacity = "1";
+    }
+    if (x2.style.height === "50px") {
+        x2.style.height = "0px";
+    } else {
+        x2.style.height = "50px";
+    }
+    if (x3.style.height === "30px") {
+        x3.style.height = "0px";
+    } else {
+        x3.style.height = "30px";
+    }
+
+}
+
+function openNike(){
+    var x = document.getElementById("nike-web")
+    if (x.style.height === "1255px") {
+        x.style.height = "0px";
+    } else {
+        x.style.height = "1255px"
+    }
+}
+
+function openMacs(){
+    var x = document.getElementById("macs-web")
+    if (x.style.height === "2000px") {
+        x.style.height = "0px";
+    } else {
+        x.style.height = "2000px"
+    }
+}
+
+function openAmazon(){
+    var x = document.getElementById("amazon-web")
+    if (x.style.height === "1100px") {
+        x.style.height = "0px";
+    } else {
+        x.style.height = "1100px"
+    }
+}
+
+
+function back(){
+    var x = document.getElementById("nike-web")
+    var x2 = document.getElementById("macs-web")
+    var x3 = document.getElementById("amazon-web")
+        if (x.style.height === "1255px") {
+        x.style.height = "0px";
+    } 
+        if (x2.style.height === "2000px") {
+        x2.style.height = "0px";
+    } 
+        if (x3.style.height === "1100px") {
+        x3.style.height = "0px";
+    } 
 }
 
 function playgame() {
@@ -73,6 +142,9 @@ function closeApp() {
     var x2 = document.getElementById("page-2");
     var x3 = document.getElementById("ads");
     var x4 = document.getElementById("page-3");
+    var x5 = document.getElementById("page-4");
+    var x6 = document.getElementById("top-bar");
+    var x7= document.getElementById("bottom-bar");
     if (x1.style.height === "563px") {
         x1.style.height = "0px";
     }
@@ -98,6 +170,18 @@ function closeApp() {
     }
     if (x4.style.opacity === "1") {
         x4.style.opacity = "0";
+    }
+        if (x5.style.height === "563px") {
+        x5.style.height = "0px";
+    }
+    if (x5.style.opacity === "1") {
+        x5.style.opacity = "0";
+    }
+    if (x6.style.height === "50px") {
+        x6.style.height = "0px";
+    }
+    if (x7.style.height === "30px") {
+        x7.style.height = "0px";
     }
 
 }

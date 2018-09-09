@@ -351,6 +351,137 @@ position: absolute;
 	overflow-y: scroll;
 }
 
+#page-4 {
+	margin-top:3px;
+	width:100%;
+	height:0px;
+	opacity:0;
+	background:lightgrey;
+	display:block;
+	position:absolute;
+	transition: opacity 1s;
+	overflow-y: scroll;
+}
+
+#top-bar{
+	width:450px;
+	height:0px;
+	background:white;
+	position:fixed;
+	text-align:center;
+	opacity:0.98;
+	overflow:hidden;
+}
+
+#browse{
+	width:90%;
+	margin-top:10px;
+	height:30px;
+	text-align:center;
+	background:lightgrey;
+	border-radius:5px;
+	border:none;
+}
+
+#bottom-bar{
+	margin-top:533px;
+	width:450px;
+	height:0px;
+	background:white;
+	position:fixed;
+	opacity:0.98;
+	overflow:hidden;
+}
+
+#back {
+	width: 0;
+	height: 0;
+	border-top:10px solid transparent;
+	border-bottom: 10px solid transparent;
+	border-right:15px solid lightgrey;
+}
+
+#forward {
+	width: 0;
+	height: 0;
+	border-top:10px solid transparent;
+	border-bottom: 10px solid transparent;
+	border-left:15px solid lightgrey;
+}
+
+
+.web-links {
+	margin-top:80px;
+	position:absolute;
+}
+.web-links button {
+	width:60px;
+	height:60px;
+	margin-left:40px;
+	border:none;
+}
+
+.web-links button:active {
+	filter:brightness(80%);
+}
+
+#nike-web{
+	width:100%;
+	height:0px;
+    background-image:url("img/nikeweb.png");
+	background-repeat: none;
+	background-position: center;
+	background-size:cover;
+	position:absolute;
+	margin-top:20px;
+
+}
+
+#macs-web{
+	width:100%;
+	height:0px;
+    background-image:url("img/macsweb.png");
+	background-repeat: none;
+	background-position: center;
+	background-size:cover;
+	position:absolute;
+	margin-top:45px;
+
+}
+
+#nike {
+	background-image:url("img/nike.jpg");
+	background-repeat: none;
+	background-size: cover;
+	background-position: center;
+}
+
+#macs {
+	background-image:url("img/macs.png");
+	background-repeat: none;
+	background-size: cover;
+	background-position: center;
+}
+
+#amazon {
+	background-image:url("img/amazon.jpg");
+	background-repeat: none;
+	background-size: cover;
+	background-position: center;
+}
+
+#amazon-web{
+	width:100%;
+	height:0px;
+    background-image:url("img/amazonweb.png");
+	background-repeat: none;
+	background-position: center;
+	background-size:cover;
+	position:absolute;
+	margin-top:50px;
+
+}
+
 
 .home-button button {
 	width:25px;
@@ -361,6 +492,8 @@ position: absolute;
 	border-radius:20px;
 	background-color:black;
 }
+
+
 
 .home-button button:active {
 
