@@ -73,6 +73,16 @@ function app4() {
     } else {
         x3.style.height = "30px";
     }
+    if (x2.style.opacity === "0.98") {
+        x2.style.opacity = "0";
+    } else {
+        x2.style.opacity = "0.98";
+    }
+    if (x3.style.opacity === "0.98") {
+        x3.style.opacity = "0";
+    } else {
+        x3.style.opacity = "0.98";
+    }
 
 }
 
@@ -199,6 +209,12 @@ function closeApp() {
     }
     if (x7.style.height === "30px") {
         x7.style.height = "0px";
+    }
+    if (x6.style.opacity === "0.98") {
+        x6.style.opacity = "0";
+    }
+    if (x7.style.opacity === "0.98") {
+        x7.style.opacity = "0";
     }
 
 }

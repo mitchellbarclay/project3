@@ -388,10 +388,11 @@ position: absolute;
 	width:450px;
 	height:0px;
 	background:white;
-	position:fixed;
+	position:absolute;
 	text-align:center;
-	opacity:0.98;
+	opacity:0;
 	overflow:hidden;
+	transition: opacity 1s;
 }
 
 #browse{
@@ -405,13 +406,22 @@ position: absolute;
 }
 
 #bottom-bar{
-	margin-top:533px;
+	margin-top:535px;
 	width:450px;
 	height:0px;
 	background:white;
-	position:fixed;
-	opacity:0.98;
+	position:absolute;
+	opacity:0;
 	overflow:hidden;
+	transition: opacity 1s;
+}
+
+#web-wrap{
+	position:relative;
+}
+
+#page-wrap{
+	position:relative;
 }
 
 #back {
