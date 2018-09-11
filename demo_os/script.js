@@ -14,7 +14,7 @@ function app1() {
     }
 }
 
-function signUo() {
+function signUp() {
     var x = document.getElementById("fb-layout");
     if (x.style.height === "563px") {
         x.style.height = "0px";
@@ -181,6 +181,7 @@ function closeApp() {
     var x5 = document.getElementById("page-4");
     var x6 = document.getElementById("top-bar");
     var x7= document.getElementById("bottom-bar");
+    var x8 = document.getElementById("fb-layout");
     if (x1.style.height === "563px") {
         x1.style.height = "0px";
     }
@@ -224,6 +225,9 @@ function closeApp() {
     }
     if (x7.style.opacity === "0.98") {
         x7.style.opacity = "0";
+    }
+    if (x8.style.height === "563px") {
+        x8.style.height = "0px";
     }
 
 }
