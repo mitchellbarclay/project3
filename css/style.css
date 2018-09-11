@@ -141,7 +141,7 @@ p{
 
 body{
 	margin: 0px;
-	font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+	font-family: Helvetica Neue, 'Roboto' ,sans-serif;
 
 }
 
@@ -186,7 +186,7 @@ nav a{
 	text-decoration: none;
 	color:white;
 	text-align:center;
-	font-weight:lighter;
+	font-weight:100;
 
 }
 
@@ -237,7 +237,7 @@ h2 {
 	text-align:center;
 	margin:0;
 	padding:0;
-	font-weight:lighter;
+	font-weight:100;
 }
 
 h3 {
