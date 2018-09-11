@@ -591,6 +591,12 @@ display: none;
 	height:0px;
 }
 
+#bottom-text{
+	text-align:center;
+	font-size:12px;
+	margin-top:20px;
+}
+
 
 
 
