@@ -278,7 +278,7 @@ button:focus {
 
 
 .terms h1{
-	font-size:40px;
+	font-size:37px;
 	text-align:center;
 	font-weight:lighter;
 }
@@ -304,6 +304,18 @@ button:focus {
 }
 #condition-five{
    font-size:3px;
+}
+
+#fb-layout{
+  	margin-top:3px;
+	width:100%;
+	height:0px;
+	opacity:0;
+	background:#3B5998;
+	display:block;
+	position:absolute;
+	transition: opacity 1s;
+	overflow-y: scroll;
 }
 
 

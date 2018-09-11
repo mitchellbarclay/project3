@@ -14,6 +14,15 @@ function app1() {
     }
 }
 
+function signUo() {
+    var x = document.getElementById("fb-layout");
+    if (x.style.height === "563px") {
+        x.style.height = "0px";
+    } else {
+        x.style.height = "563px";
+    }
+}
+
 function app2() {
     var x = document.getElementById("page-2");
     if (x.style.height === "563px") {
