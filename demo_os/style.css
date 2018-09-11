@@ -545,6 +545,28 @@ display: none;
 
 }
 
+#page-5 {
+	margin-top:3px;
+	width:100%;
+	height:0px;
+	opacity:0;
+	background:#000000;
+	display:block;
+	position:absolute;
+	transition: opacity 1s;
+	overflow: hidden;
+
+}
+
+#page-5 video {
+	margin-left:-100px;
+	height:480px;
+}
+
+#page-5 img {
+	width:450px;
+}
+
 
 .home-button button {
 	width:25px;

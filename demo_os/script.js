@@ -97,6 +97,20 @@ function app4() {
 
 }
 
+function app5() {
+    var x = document.getElementById("page-5");
+    if (x.style.height === "563px") {
+        x.style.height = "0px";
+    } else {
+        x.style.height = "563px";
+    }
+    if (x.style.opacity === "1") {
+        x.style.opacity = "0";
+    } else {
+        x.style.opacity = "1";
+    }
+}
+
 function openNike(){
     var x = document.getElementById("nike-web")
     if (x.style.height === "1255px") {
@@ -184,6 +198,7 @@ function closeApp() {
     var x6 = document.getElementById("top-bar");
     var x7= document.getElementById("bottom-bar");
     var x8 = document.getElementById("fb-layout");
+    var x9 = document.getElementById("page-5");
     if (x1.style.height === "563px") {
         x1.style.height = "0px";
     }
@@ -230,6 +245,12 @@ function closeApp() {
     }
     if (x8.style.height === "563px") {
         x8.style.height = "0px";
+    }
+    if (x9.style.height === "563px") {
+        x9.style.height = "0px";
+    }
+    if (x9.style.opacity === "1") {
+        x9.style.opacity = "0";
     }
 
 }
@@ -314,4 +335,17 @@ window.onload = function () {
     startTimer(oneHour, display);
 };
 
+
+////////Webcam//////////
+
+ navigator.getUserMedia = navigator.getUserMedia ||navigator.webkitGetUserMedia || navigator.mozGetUserMedia || navigator.msGetUsermedia || navigator.oGetUserMedia;
+ if(navigator.getUserMedia){
+  navigator.getUserMedia({video: true}, handleVideo,videoError);
+ }
+ function handleVideo(stream){
+  document.querySelector('#webcam').src = window.URL.createObjectURL(stream);
+ }
+ function videoError(e){
+  alert("error");
+ }
 
