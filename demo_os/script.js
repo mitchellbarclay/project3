@@ -23,6 +23,8 @@ function signUp() {
     }
 }
 
+///
+
 function app2() {
     var x = document.getElementById("page-2");
     if (x.style.height === "563px") {
