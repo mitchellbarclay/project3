@@ -440,19 +440,30 @@ display: none;
 }
 
 #back {
-	width: 0;
-	height: 0;
-	border-top:10px solid transparent;
-	border-bottom: 10px solid transparent;
-	border-right:15px solid lightgrey;
+	width: 20px;
+	height: 20px;
+
+	background-image:url("img/back-arrow.png");
+	background-repeat: none;
+	background-position: center;
+	background-size:cover;
+	border:none;
+	margin:2px;
+	margin-top:5px;
 }
 
 #forward {
-	width: 0;
-	height: 0;
-	border-top:10px solid transparent;
-	border-bottom: 10px solid transparent;
-	border-left:15px solid lightgrey;
+	width: 20px;
+	height: 20px;
+
+
+	background-image:url("img/forward-arrow.png");
+	background-repeat: none;
+	background-position: center;
+	background-size:cover;
+	border:none;
+	margin:2px;
+	margin-top:5px;
 }
 
 
