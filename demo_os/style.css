@@ -217,10 +217,7 @@ button:focus {
 	display:block;
 	position:absolute;
 	transition: opacity 1s;
-	overflow: scroll;
-	background-repeat: none;
-	background-size: cover;
-	background-position: center;
+	overflow: hidden;
 }
 
 .facebook{
