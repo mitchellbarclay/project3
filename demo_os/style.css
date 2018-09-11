@@ -393,6 +393,8 @@ position: absolute;
 	position:absolute;
 	transition: opacity 1s;
 	overflow-y: scroll;
+	padding-right: 5px;
+	box-sizing: content-box;
 }
 
 #top-bar{
