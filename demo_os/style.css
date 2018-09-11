@@ -210,7 +210,7 @@ button:focus {
 
 #page-1 {
 	margin-top:3px;
-	width:450px;
+	width:100%;
 	height:0px;
 	opacity:0;
 	background:#3B5998;
@@ -218,6 +218,9 @@ button:focus {
 	position:absolute;
 	transition: opacity 1s;
 	overflow-y: scroll;
+	background-repeat: none;
+	background-size: cover;
+	background-position: center;
 }
 
 .facebook{
